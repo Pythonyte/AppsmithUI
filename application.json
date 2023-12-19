@@ -1,15 +1,15 @@
 {
   "pages": [
     {
-      "id": "enter script id",
+      "id": "Input Form",
       "isDefault": false
     },
     {
-      "id": "login",
+      "id": "Login",
       "isDefault": true
     },
     {
-      "id": "view form",
+      "id": "Assessment",
       "isDefault": false
     }
   ],
