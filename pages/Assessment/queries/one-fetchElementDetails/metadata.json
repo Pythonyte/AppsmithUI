@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject13.myFun1",
+    "name": "fetchElementDetails",
+    "fullyQualifiedName": "one.fetchElementDetails",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Input Form",
-    "collectionId": "Input Form_JSObject13",
+    "pageId": "Assessment",
+    "collectionId": "Assessment_one",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,7 +23,6 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-18T07:35:56Z"
+    "createdAt": "2023-12-19T07:43:02Z"
   },
-  "id": "Input Form_JSObject13.myFun1",
+  "id": "Assessment_one.fetchElementDetails",
   "deleted": false,
-  "gitSyncId": "651fc29ffce05f040d06c177_657ff65cd6f177588b71e168"
+  "gitSyncId": "65813d8776da6a6f3da343be_65814986291a06054a5e87f8"
 }

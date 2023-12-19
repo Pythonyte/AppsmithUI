@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "login",
-    "onClick": "{{ConnectedApp_Auth.run().then(() => {\n  showAlert('Welcome to Salesforce', 'success');\n  storeValue('bearer', ConnectedApp_Auth.data.access_token);\n  navigateTo('enter script id', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Invalid credentials', 'error');\n});}}",
+    "onClick": "{{ConnectedApp_Auth.run().then(() => {\n  showAlert('Welcome to Salesforce', 'success');\n  storeValue('bearer', ConnectedApp_Auth.data.access_token);\n  navigateTo('Input Form', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Invalid credentials', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

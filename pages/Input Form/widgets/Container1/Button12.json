@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button12",
-    "onClick": "{{navigateTo('view form', {}, 'SAME_WINDOW').then(() => {\n  navigateTo('view form', {}, 'SAME_WINDOW');\n});}}",
+    "onClick": "{{navigateTo('Assessment', {}, 'SAME_WINDOW').then(() => {\n  navigateTo('view form', {}, 'SAME_WINDOW');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
