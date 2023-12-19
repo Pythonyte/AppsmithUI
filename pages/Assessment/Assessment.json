@@ -54,6 +54,17 @@
           ],
           [
             {
+              "id": "Assessment_one.fetchElementDetails",
+              "name": "one.fetchElementDetails",
+              "collectionId": "Assessment_one",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  get_DFTOS.run();\n  for (let i = 0; i < get_DFTOS.data.elements.length; i++) {\n    if (get_DFTOS.data.elements[i].type === \"Step\") {\n      var stepElement = get_DFTOS.data.elements[i].name;\n      one.QuestionTextjson[stepElement] = {};\n      for (let j = 0; j < get_DFTOS.data.elements[i].elements.length; j++) {\n        var currentElement = get_DFTOS.data.elements[i].elements[j];\n        var Questiontext = currentElement.customTypeDetails.discoveryFramework.questionText.toString();\n        var QuestionDev = currentElement.customTypeDetails.discoveryFramework.questionDeveloperName.toString();\n        if (currentElement.data.elements.length === 0) {\n          one.QuestionTextjson[stepElement][Questiontext] = \"\";\n        } else {\n          one.QuestionTextjson[stepElement][Questiontext] = {};\n        }\n      }\n      console.log(one.QuestionDeveloperName);\n    }\n    return one.QuestionTextjson;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Assessment_one.myFun1",
               "name": "one.myFun1",
               "collectionId": "Assessment_one",

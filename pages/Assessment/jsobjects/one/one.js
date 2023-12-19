@@ -38,12 +38,12 @@ export default {
 							var childQuestiontext  = childElement.customTypeDetails.discoveryFramework.questionText.toString();
 							var childQuestionDev  = childElement.customTypeDetails.discoveryFramework.questionDeveloperName.toString();
 							this.QuestionTextjson[stepElement][Questiontext][childQuestiontext] = "";
-					  }
+						}
+					}
+					console.log(this.QuestionDeveloperName);
 				}
-				console.log(this.QuestionDeveloperName);
+
+				return this.QuestionTextjson;
 			}
-			
-			return this.QuestionTextjson;
 		}
 	}
-}

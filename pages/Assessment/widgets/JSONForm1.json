@@ -228,7 +228,7 @@
     "parentColumnSpace": 17.296875,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{one.myFun1.data}}",
+    "sourceData": "{{one.fetchElementDetails.data}}",
     "resetButtonLabel": "",
     "key": "lcl7l96525",
     "backgroundColor": "#fff",
